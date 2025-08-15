@@ -179,7 +179,7 @@ const calculatePasswordStrength = (password) => {
   };
 };
 
-// API Routes --------------------------------------------------------------------
+// API Routes -------------------------------------------------------------------
 
 // Root endpoint - API information
 app.get("/", (req, res) => {
