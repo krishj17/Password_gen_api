@@ -14,50 +14,7 @@ A professional, secure, and feature-rich password generation API built with Node
 
 ## 📡 Live API
 
-**Base URL**: `https://your-api-domain.vercel.app`
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Local Development
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/arch-password-generator-api.git
-cd arch-password-generator-api
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. The API will be available at `http://localhost:3000`
-
-### Deploy to Vercel
-
-1. Install Vercel CLI:
-```bash
-npm i -g vercel
-```
-
-2. Login to Vercel:
-```bash
-vercel login
-```
-
-3. Deploy:
-```bash
-vercel --prod
-```
+**Base URL**: `https://arch-pass-gen-api.vercel.app`
 
 ## 📚 API Documentation
 
@@ -224,12 +181,12 @@ All errors follow a consistent format:
 
 ```javascript
 // Simple GET request
-const response = await fetch('https://your-api-domain.vercel.app/generate?length=20&type=secure');
+const response = await fetch('https://arch-pass-gen-api.vercel.app/generate?length=20&type=secure');
 const data = await response.json();
 console.log(data.data.password);
 
 // Advanced POST request
-const response = await fetch('https://your-api-domain.vercel.app/generate', {
+const response = await fetch('https://arch-pass-gen-api.vercel.app/generate', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -249,7 +206,7 @@ const response = await fetch('https://your-api-domain.vercel.app/generate', {
 import requests
 
 # Generate a single password
-response = requests.get('https://your-api-domain.vercel.app/generate', 
+response = requests.get('https://arch-pass-gen-api.vercel.app/generate', 
                        params={'length': 16, 'type': 'complex'})
 password = response.json()['data']['password']
 print(password)
@@ -259,10 +216,10 @@ print(password)
 
 ```bash
 # GET request
-curl "https://your-api-domain.vercel.app/generate?length=20&type=secure"
+curl "https://arch-pass-gen-api.vercel.app/generate?length=20&type=secure"
 
 # POST request
-curl -X POST "https://your-api-domain.vercel.app/generate" \
+curl -X POST "https://arch-pass-gen-api.vercel.app/generate" \
   -H "Content-Type: application/json" \
   -d '{"length":16,"type":"complex","count":3}'
 ```
@@ -282,13 +239,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - [Live API](https://your-api-domain.vercel.app)
-- [GitHub Repository](https://github.com/your-username/arch-password-generator-api)
-- [Issues](https://github.com/your-username/arch-password-generator-api/issues)
+- [GitHub Repository](https://github.com/krishj17/Password_gen_api)
+- [Issues](https://github.com/krishj17/Password_gen_api/issues)
 
 ## 📞 Support
 
-If you have any questions or need support, please [open an issue](https://github.com/your-username/arch-password-generator-api/issues) on GitHub.
+If you have any questions or need support, please [open an issue](https://github.com/krishj17/Password_gen_api/issues) on GitHub.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Arch - Krish Jariwala]
