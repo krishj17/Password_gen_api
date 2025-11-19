@@ -248,4 +248,5 @@ If you have any questions or need support, please [open an issue](https://github
 
 ---
 
-Made with ❤️ by [Arch - Krish Jariwala]
+Made with ❤️ by Arch - Krish J
+NOTE: This api is just for testing purposes. For Higher Rate Limit for your ip, please contact via email provided.
